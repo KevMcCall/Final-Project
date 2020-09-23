@@ -11,6 +11,8 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&family=Satisfy&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -42,8 +44,9 @@
 
         <section class="about-area" id="about">
             <div class="text-part">
-
+            <br>
                 <h1>About The Owner</h1>
+                <img src="images/aboutme.jpg" alt="Mara McCall" id="mara">
                 <br>
                 <p>Hi! My name is Mara McCall and I am the owner of iYarnyou. I started my small business this year,
                     2020 of March. One of my hobbies is to crochet. My mother is the one that taught me the skill when I
@@ -54,14 +57,14 @@
                     always inspires me to do the things that I love and to achieve my goals.</p>
 
                 <p>This hobby turned into a business because of one of my friends asked me to make a table cloth as a
-                    gift for her mother-in-law. Then, my best friends asked me for one as well, and so on, and so
+                    gift for her mother-in-law. Then, my best friend asked me for one as well, and so on, and so
                     forth...</p>
 
                 <p>I really enjoy crocheting. It's rewarding to see how the customers react to my work. That's why one
                     of my goals is to make this business grow larger and one day help housewives, single mothers, or
                     just
                     anyone who wants to learn how to crochet. I continue everyday to learn and grow in what I'm
-                    passionate.</p>
+                    passionate about.</p>
             </div>
         </section>
 
@@ -152,15 +155,50 @@
         <script>
             baguetteBox.run('.cards-gallery', { animation: 'slideIn' });
         </script>
+        <div class="contactcontainer">
+            <div class="contactrow">
+            <div class="col-md-5">
         <section class="contact-area" id="contact">
             <div class="text-part">
                 <h1>Contact Me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem temporibus nobis optio molestias, est
-                    iure dolorem ea! Consequatur illum porro eaque molestias dicta? Placeat voluptates alias consequatur
-                    iure recusandae mollitia!</p>
-            </div>
-        </section>
+                <h6>Please fill out the form and we will get in touch!</h6>
+                
+                        <form id="contact" action="https://kevmccall.github.io/Final-Project/index.html" method="GET"
+                            autocomplete="on" target="_self">
+                            
+                            <fieldset>
+                                <label for="name">Name</label><br>
+                                <input type="text" id="name" name="name" required autofocus>
+                            </fieldset>
+                            <fieldset>
+                                <label for="email">Email</label><br>
+                                <input type="email" id="email" name="email" required>
+                            </fieldset>
+                            <br>
+                            <fieldset>
+                                <textarea name="text" required></textarea>
+                            </fieldset>
+                            <br>
+                            <fieldset>
+                                <button name="submit" type="submit">Submit</button>
+                            </fieldset>
+                    </div>
+                    </div>
+                    </div>
+                    
+                </section>
+                <p class="phrase">Have a Yarnderful Day!</p>
     </main>
+    <footer id="sticky-footer" class="py-4 bg-lavender text-white-50">
+        <div class="container text-center">
+            <small>
+            <address>
+                <a href="mailto:marakaicastro101@gmail.com">Marakaicastro101@gmail.com</a>
+            </small>
+            </address>
+        </div>
+
+    </footer>
 
 
 

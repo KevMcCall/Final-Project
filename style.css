@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Satisfy', cursive;
 }
 
 p {
@@ -85,10 +85,20 @@ a:hover {
     height: 80%;
     font-size: 16px;
     overflow: auto;
+    
+}
+
+.text-part p {
+  line-height: 30px;
 }
 
 .about-area {
     background-color: #fefefe;
+    height: auto;
+    font-family: 'Lateef', cursive;
+    font-size: 18px;
+    
+    
 }
 
 .port-area {
@@ -203,4 +213,35 @@ a:hover {
 
   }
 
+.contactcontainer {
 
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+#contact textarea {
+  max-width: auto;
+  resize: both;
+  width: 61%;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  background-color: #E6E6FA;
+}
+
+#mara {
+  width: 362.5; 
+  height: 480;
+  border: 5px solid lavender;
+}
+
+.phrase {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Satisfy', cursive;
+}
