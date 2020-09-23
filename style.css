@@ -93,6 +93,7 @@ a:hover {
 
 .port-area {
     background-color: #D8BFD8;
+    height: auto;
 }
 
 .contact-area {
@@ -177,20 +178,29 @@ a:hover {
     text-decoration: none;
     margin: 5px 2px;
     
+    
   }
   
 .fa:hover {
       opacity: 0.7;
+      text-decoration: none;
+      
   }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+    background: #E6E6FA;
+    color: #3b5998;
+    margin-left: 85%;
+    
   }
 
 .fa-instagram {
-    background: #125688;
-    color: white;
+
+    color: black;
+    margin-left: 93%;
+    background: #E6E6FA;
+    
+
   }
 
 
